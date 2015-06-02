@@ -159,18 +159,18 @@ section {
 }
 
 .thursday {
-    background: rgba($PINK, 0.8);
-
-    .day__fb-button:hover {
-        color: $PINK;
-    }
-}
-
-.friday {
     background: rgba($ORANGE, 0.8);
 
     .day__fb-button:hover {
         color: $ORANGE;
+    }
+}
+
+.friday {
+    background: rgba($PINK, 0.8);
+
+    .day__fb-button:hover {
+        color: $PINK;
     }
 }
 
