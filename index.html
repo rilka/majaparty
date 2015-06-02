@@ -3,25 +3,170 @@
 <head>
     <title></title>
 
-    <link href="animate.css" rel="stylesheet" type="text/css">
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="lib/animate.css" rel="stylesheet">
+    <link href="lib/fullpage.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="video.js" type="text/javascript"></script>
-    <script src="bigvideo.js" type="text/javascript"></script>
+    <script src="lib/jquery-visible.js"></script>
+    <script src="lib/video.js"></script>
+    <script src="lib/bigvideo.js"></script>
 </head>
 <body>
+    <div class="container">
+    <section class="header">
+        <div class="section-inner">
+            <h1>Maja's turning 24.</h1>
+            <h2>You know what that means.</h2>
+            <h2>7.09 &ndash; 7.12</h2>
+            <div class="header__button">Wait what does that mean?</div>
+        </div>
+    </section>
+
+    <section class="thursday">
+        <div class="section-inner">
+            <div class="duh">It means you're about to make some bad decisions, starting with</div>
+            <div class="day__header">Thursday 7.09 &mdash; The Polk Street Crawl</div>
+
+            <div class="day__details">
+                <div class="details__blurb">
+                    <p>[insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]</p>
+                </div>
+                <div class="details__info">
+                    <div class="info__section info__time">8 PM</div>
+                    <div class="info__section info__place">Kozy Kar</div>
+                    <div class="info__section info__theme">"Athletic"</div>
+                </div>
+            </div>
+
+            <a href="https://www.facebook.com/events/457736527734751/" target="_blank"><div class="day__fb-button">If it's not on Facebook, it didn't happen</div></a>
+        </div>
+    </section>
+
+    <section class="friday">
+        <div class="section-inner">
+            <div class="duh">And keeping your streak going with</div>
+            <div class="day__header">Friday 7.10 &mdash; Shitty Burning Man</div>
+
+            <div class="day__details">
+                <div class="details__blurb">
+                    <p>[insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]</p>
+
+                    <p>Drank too much on Thursday and now you ~can't make it into work~? Join us for lunch in Dolores Park. We'll make sure not to tag you on social media.</p>
+                </div>
+                <div class="details__info">
+                    <div class="info__section info__time">9 PM</div>
+                    <div class="info__section info__place">Stan's house, probably</div>
+                    <div class="info__section info__theme">Shitty Burning Man</div>
+                </div>
+            </div>
+
+            <a href="https://www.facebook.com/events/457736527734751/" target="_blank"><div class="day__fb-button">Don't be a San Francisco yes</div></a>
+        </div>
+    </section>
+
+    <section class="saturday">
+        <div class="section-inner">
+            <div class="duh">and we cannn't stop, and we wonnn't stop</div>
+            <div class="day__header">Saturday 7.11 &mdash; The Whomping Willows</div>
+
+            <div class="day__details">
+                <div class="details__blurb">
+                    <p>[insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]</p>
+                </div>
+                <div class="details__info">
+                    <div class="info__section info__time">9 PM</div>
+                    <div class="info__section info__place">The Willows</div>
+                    <div class="info__section info__theme">Black tie</div>
+                </div>
+            </div>
+
+            <a href="https://www.facebook.com/events/457736527734751/" target="_blank"><div class="day__fb-button">Better than Bootie</div></a>
+        </div>
+    </section>
+
+    <section class="sunday">
+        <div class="section-inner">
+            <div class="duh">[something cute here]</div>
+            <div class="day__header">Sunday 7.12 &mdash; "I'm never drinking again"</div>
+
+            <div class="day__details">
+                <div class="details__blurb">
+                    <p>[insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]<br/>
+                    [insert very exciting description here]</p>
+                </div>
+                <div class="details__info">
+                    <div class="info__section info__time">11 AM</div>
+                    <div class="info__section info__place">The Willows</div>
+                    <div class="info__section info__theme">Hungover</div>
+                </div>
+            </div>
+
+            <a href="https://www.facebook.com/events/457736527734751/" target="_blank"><div class="day__fb-button">To the birthday girl!</div></a>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="section-inner">
+            <h2>Do you want SMS updates?</h2>
+            <h3>Yeah you do.</h3>
+
+            <div class="text">Text MAJA to [# here] and we'll send you periodic updates about where the party's at. There will be no way to unsubscribe. You're in it to win it.</div>
+
+            <div class="back-to-top-button">See you there!</div>
+        </div>
+    </section>
+
+    </div>
+
+    <script src="lib/fullpage.js"></script>
     <script type="text/javascript">
+        // Play video
         var BV = new $.BigVideo();
         BV.init();
-        BV.show('bg.mp4', {ambient: true});
-    </script>
+        BV.show("bg.mp4", {ambient: true});
 
-    <section class="header">
-        <h1>Maja is turning twenty four.</h1>
-        <h2>You know what that means.</h2>
-        <h2>7.09 &ndash; 7.12</h2>
-        <div class="header__button">Wait what does that mean?</div>
-    </section>
+        // Scroll
+        $(".container").onepage_scroll({
+           sectionContainer: "section",
+           easing: "linear",
+           animationTime: 300,
+           pagination: false,
+           loop: false,
+           keyboard: true,
+           responsiveFallback: false,
+           direction: "vertical"
+        });
+
+        $(window).scroll(function() {
+            $("body").addClass("disabled-onepage-scroll");
+            setTimeout(function() {
+                $("body").removeClass("disabled-onepage-scroll");
+            }, 10000);
+        });
+
+        $('.header__button').click(function() {
+            $(".container").moveDown();
+        });
+
+        $('.back-to-top-button').click(function() {
+            $(".container").moveTo(1);
+        });
+    </script>
 </body>
 </html>
