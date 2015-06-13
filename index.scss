@@ -41,7 +41,7 @@ body {
 
 a {
     color: inherit;
-    text-decoration: inherit;
+    //text-decoration: ;
 }
 
 ::selection {
@@ -91,13 +91,13 @@ section {
             font-size: 24px;
             padding-right: 48px;
             text-align: left;
-            width: 360px;
+            width: 375px;
         }
 
         .details__info {
             margin-left: 48px;
             text-align: left;
-            width: 360px;
+            width: 375px;
 
             .info__section {
                 font-size: 24px;
